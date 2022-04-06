@@ -1,5 +1,5 @@
 This project aims to manage students, specifically by register their names, courses and year group.
-The client asks for information - the server delivers that information
+The client asks for information - the server delivers that information.
 
 
 HOW TO:
