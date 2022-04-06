@@ -1,3 +1,4 @@
+<!--
 This project aims to manage students, specifically by register their names, courses and year group.
 The client asks for information - the server delivers that information
 
@@ -59,14 +60,14 @@ press "choose a file or drag it here", navigate to your \dbderby\lib, choose the
 Download the zip-file, extract it to your workspace
 In build.xml, edit the path to your wildfly application, e.g.
 
-<!-- select a line that points to the path of your server deployment folder
+-- select a line that points to the path of your server deployment folder
 
     WINDOWS VERSION:
     <property name="server-dist" value="C:\Progra~1\wildfly\wildfly-10.0.0.Final\standalone\deployments"/>
 
     MAC/LINUX VERSION:
     <property name="server-dist" value="/opt/wildfly/wildfly/wildfly-10.0.0.Final/standalone/deployments"/>
-    -->
+    --
 
 <property name="server-dist" value="absolute path to wildfly\standalone\deployments goes here"/>
 
@@ -74,3 +75,4 @@ In build.xml, edit the path to your wildfly application, e.g.
 
 right click the build.xml, run as, ant build.
 If successful, a StudentManagement.war file has been created in the deployment section of WildFly.
+-->
