@@ -35,9 +35,9 @@ WildFly:
 In the folder, \wildfly-23.0.0.Final\standalone\configuration, open standalone.xml.
 paste the following in the datasources tag <datasources>paste here</datasources>:
 
-<datasource jndi-name="java:/EmployeeDatabase" pool-name="EmployeeDatabase"
+<datasource jndi-name="java:/StudentDatabase" pool-name="StudentDatabase"
 		enabled="true" use-java-context="true">
-	<connection-url>jdbc:derby://localhost:50000/EmployeeManagement
+	<connection-url>jdbc:derby://localhost:50000/StudentManagement
 		</connection-url>
 	<driver>derbyclient.jar</driver>
 	<security>
