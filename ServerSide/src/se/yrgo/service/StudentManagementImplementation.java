@@ -6,6 +6,7 @@ import javax.inject.Inject;
 import se.yrgo.dataaccess.StudentDataAccess;
 import se.yrgo.domain.Student;
 
+/** Injects into the dataaccess for the Get methods */
 @Stateless
 public class StudentManagementImplementation implements StudentManagementService {
 	@Inject

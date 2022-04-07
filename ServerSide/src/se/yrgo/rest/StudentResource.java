@@ -15,6 +15,7 @@ import javax.ws.rs.Produces;
 import se.yrgo.domain.Student;
 import se.yrgo.service.StudentManagementService;
 
+/**Return the get methods as JSON text */
 @Stateless
 @Path("/students")
 public class StudentResource {

@@ -5,6 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+/**Constructor for students, getters and setters for all fields. */
 @Entity
 public class Student implements java.io.Serializable {
 	@Id

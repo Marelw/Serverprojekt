@@ -7,6 +7,7 @@ import javax.ws.rs.core.Response;
 
 public class TestClient {
 
+	/*Mainmethod that posts 1 student and gets all student from the database*/	
 	public static void main(String[] args) {
 		Client client = ClientBuilder.newClient();
 		Student std = new Student();

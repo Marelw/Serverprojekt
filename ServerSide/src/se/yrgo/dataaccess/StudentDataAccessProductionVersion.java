@@ -10,6 +10,7 @@ import javax.persistence.Query;
 
 import se.yrgo.domain.Student;
 
+/** Actual methods that are being used for getting the students */
 @Stateless
 @Default
 public class StudentDataAccessProductionVersion implements StudentDataAccess {

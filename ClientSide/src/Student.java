@@ -1,3 +1,4 @@
+/* Getters and setters for the Students that are created */
 public class Student {
 
 	private int id;

@@ -6,6 +6,7 @@ import javax.ejb.Local;
 
 import se.yrgo.domain.Student;
 
+/** Interface for the ManagementImplementation */
 @Local
 public interface StudentManagementService {
 	

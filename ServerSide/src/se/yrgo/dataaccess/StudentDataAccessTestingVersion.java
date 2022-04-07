@@ -8,6 +8,7 @@ import javax.enterprise.inject.Alternative;
 
 import se.yrgo.domain.Student;
 
+/**Alternative class for getting methods if the Production version fails */
 @Stateless
 @Alternative
 public class StudentDataAccessTestingVersion implements StudentDataAccess {

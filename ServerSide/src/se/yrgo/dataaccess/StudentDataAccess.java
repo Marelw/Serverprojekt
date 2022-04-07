@@ -6,6 +6,7 @@ import javax.ejb.Local;
 
 import se.yrgo.domain.Student;
 
+/** Interface for the get methods */
 @Local
 public interface StudentDataAccess {
 	public void insert(Student newStudent);
