@@ -9,16 +9,16 @@ public class TestClient {
 
 	public static void main(String[] args) {
 		Client client = ClientBuilder.newClient();
-		Student ben = new Student();
-		ben.setFirstName("Ben");
-		ben.setSurname("Red");
-		ben.setCourse("UX-Design");
-		ben.setYearGroup(1);
+		Student std = new Student();
+		std.setFirstName("Andreas");
+		std.setSurname("Karlsson");
+		std.setCourse("Java");
+		std.setYearGroup(0);
 
-		Entity benEntity = Entity.entity(ben, "application/JSON");
+		Entity stdEntity = Entity.entity(std, "application/JSON");
 
 		Response response = client.target("http://localhost:8080/StudentManagement/webservice/students").request()
-				.buildPost(benEntity).invoke();
+				.buildPost(stdEntity).invoke();
 
 		System.out.println(response.readEntity(Student.class).getId());
 		response.close();
